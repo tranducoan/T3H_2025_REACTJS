@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.menu {
+    background-color: #333; /* Màu nền xám đậm */
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Căn giữa các mục menu */
+}
+
+.menu li {
+    display: inline-block; /* Hiển thị các mục menu trên cùng một hàng */
+    margin: 0 15px; /* Khoảng cách giữa các mục menu */
+}
+
+.menu a {
+    color: #fff; /* Màu chữ trắng */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
+    padding: 8px 15px; /* Khoảng cách nội dung và đường viền */
+    border: 1px solid #555; /* Viền xám nhạt */
+    border-radius: 5px; /* Bo tròn góc */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền */
+}
+
+.menu a:hover {
+    background-color: #555; /* Màu nền khi hover */
+}

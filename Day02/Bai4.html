@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố Cục Hình Chữ Nhật</title>
+  <style>
+   body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ddd; /* Màu nền xám nhạt */
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+
+.bao-quat {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border: 2px solid black; /* Viền đen */
+    z-index: 0; /* Đặt hình chữ nhật bao quát ở lớp dưới cùng */
+}
+
+.container div {
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    z-index: 1; /* Đặt các hình chữ nhật khác ở lớp trên */
+}
+
+.m1 {
+    background-color: #8BC34A; /* Màu xanh lá cây nhạt */
+    top: 50px;
+    left: 20px;
+}
+
+.m2 {
+    background-color: #4CAF50; /* Màu xanh lá cây */
+    top: 20px;
+    left: 250px;
+}
+
+.m3 {
+    background-color: #03A9F4; /* Màu xanh dương nhạt */
+    top: 50px;
+    right: 20px;
+}
+
+.m4 {
+    background-color: #F44336; /* Màu đỏ */
+    bottom: 50px;
+    right: 20px;
+}
+
+.m5 {
+    background-color: #E91E63; /* Màu hồng */
+    bottom: 20px;
+    left: 250px;
+}
+
+.m6 {
+    background-color: #2196F3; /* Màu xanh dương */
+    bottom: 50px;
+    left: 20px;
+}
+
+.muc-tieu {
+    background-color: #FFE0B2; /* Màu kem */
+    color: black;
+    width: 150px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="m1">M1</div>
+        <div class="m2">M2</div>
+        <div class="m3">M3</div>
+        <div class="m4">M4</div>
+        <div class="m5">M5</div>
+        <div class="m6">M6</div>
+        <div class="muc-tieu">Mục tiêu 2022</div>
+    </div>
+</body>
+</html>
