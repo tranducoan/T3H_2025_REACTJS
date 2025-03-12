@@ -199,3 +199,47 @@ footer .phone img {
     height: 20px;
     margin-right: 5px;
 }
+
+header {
+    background-color: #f0f0f0; /* Màu nền xám nhạt */
+    padding: 10px; /* Thêm khoảng cách bên trong header */
+}
+
+.header-content {
+    display: flex; /* Sử dụng Flexbox để căn chỉnh logo và nav */
+    justify-content: space-between; /* Đẩy logo và nav ra hai đầu */
+    align-items: center; /* Căn chỉnh logo và nav theo chiều dọc */
+    max-width: 1200px; /* Giới hạn chiều rộng của header */
+    margin: 0 auto; /* Căn giữa header theo chiều ngang */
+}
+
+.logo {
+    font-size: 1.5em; /* Tăng kích thước chữ của logo */
+    font-weight: bold; /* In đậm logo */
+}
+
+nav {
+    display: flex; /* Sử dụng Flexbox để căn chỉnh các nút */
+    align-items: center; /* Căn chỉnh các nút theo chiều dọc */
+}
+
+.nav-button {
+    background: none; /* Loại bỏ màu nền mặc định */
+    border: none; /* Loại bỏ viền mặc định */
+    padding: 10px 15px; /* Thêm khoảng cách bên trong nút */
+    margin-left: 20px; /* Thêm khoảng cách giữa các nút */
+    cursor: pointer; /* Thay đổi con trỏ chuột khi di chuột qua nút */
+    font-size: 1em; /* Đặt kích thước chữ */
+    color: #333333; /* Đặt màu chữ */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của thẻ <a> */
+}
+
+.nav-button:hover {
+    background-color: #e0f2f7; /* Màu nền khi hover (màu xanh nhạt) */
+    border-radius: 5px; /* Bo tròn góc */
+}
+
+.cart {
+    background-color: #e0f2f7; /* Màu nền xanh nhạt cho "My Cart" */
+    border-radius: 5px; /* Bo tròn góc */
+}

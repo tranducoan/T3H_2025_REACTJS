@@ -1,116 +1,122 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Shop</title>
+    <title>MotPhim.tv</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="logo">My Shop</div>
+        <div class="header-content">
+            <div class="logo">Mọt Phim </div>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#" class="cart">My Cart (0)</a></li>
-                </ul>
+                <a href="#" class="nav-button">Home</a>
+                <a href="#" class="nav-button">About Us</a>
+                <a href="" class="nav-button">Contact</a>
+                <a href="#" class="nav-button cart">My Cart (0)</a>
             </nav>
         </div>
     </header>
 
     <div class="container">
         <aside class="sidebar">
-            <h2>Categories</h2>
-            <ul>
-                <li><label><input type="checkbox" checked> Devices</label></li>
-                <li><label><input type="checkbox" checked> Funitures</label></li>
-                <li><label><input type="checkbox" checked> Cloths</label></li>
-                <li><label><input type="checkbox" checked> Foods & Drink</label></li>
-                <li><label><input type="checkbox" checked> Materials</label></li>
-                <li><label><input type="checkbox" checked> Computers</label></li>
-                <li><a href="#">Show more...</a></li>
+            <h2>Thể Loại </h2>
+            <ul class="category-list">
+                <li><label><input type="checkbox" checked> Hành động </label></li>
+                <li><label><input type="checkbox" checked> Kinh Dị </label></li>
+                <li><label><input type="checkbox" checked> Võ Thuật </label></li>
+                <li><label><input type="checkbox" checked> Hoạt Hình </label></li>
+                <li class="hidden-category"><label><input type="checkbox" checked> Chiếu Rap </label></li>
+                <li class="hidden-category"><label><input type="checkbox" checked> Đời Thường </label></li>
+                <li><a href="#show-more">Show more...</a></li>
             </ul>
         </aside>
 
-        <main class="content">
+        <main class="main-content">
             <div class="search-bar">
-                <input type="text" placeholder="Enter keyword to search">
-                <button>Q</button>
+                <input type="text" placeholder="Enter keyword to search...">
+                <button>Search</button>
                 <select>
-                    <option>Sort by</option>
+                    <option value="">Sort by</option>
                 </select>
                 <select>
-                    <option>Order by</option>
+                    <option value="">Order by</option>
                 </select>
             </div>
 
-            <div class="products">
-                <div class="product">
-                    <div class="product-image">IMAGE</div>
-                    <div class="product-details">
-                        <div class="product-title">Lorem ipsum dolor</div>
+            <div class="product-grid">
+                <div class="product-item">
+                    <a href="product1.html">
+                        <img src="./img/01.jpg" alt="Product 8">
+                        <div class="product-title">Trạng Quỳnh </div>
                         <div class="product-price">$129.01</div>
                         <div class="product-discount">10%</div>
-                    </div>
+                    </a>
+                    <a href="./02/index.html" class="buy-button">Mua hàng</a>
                 </div>
-                <div class="product">
-                    <div class="product-image">IMAGE</div>
-                    <div class="product-details">
-                        <div class="product-title">Lorem ipsum dolor</div>
+                <div class="product-item">
+                    <a href="product2.html">
+                        <img src="./img/02.jpg" alt="Product 8">
+                        <div class="product-title">Bố Già </div>
                         <div class="product-price">$129.01</div>
                         <div class="product-discount">10%</div>
-                    </div>
+                    </a>
+                    <a href="./img/02.jpg" class="buy-button">Mua hàng</a>
                 </div>
-                <div class="product">
-                    <div class="product-image">IMAGE</div>
-                    <div class="product-details">
-                        <div class="product-title">Lorem ipsum dolor</div>
+                <div class="product-item">
+                    <a href="product3.html">
+                        <img src="./img/03.jpg" alt="Product 8">
+                        <div class="product-title">Cậu Vàng </div>
                         <div class="product-price">$129.01</div>
                         <div class="product-discount">10%</div>
-                    </div>
+                    </a>
+                    <a href="./img/03.jpg" class="buy-button">Mua hàng</a>
                 </div>
-                <div class="product">
-                    <div class="product-image">IMAGE</div>
-                    <div class="product-details">
-                        <div class="product-title">Lorem ipsum dolor</div>
+                <div class="product-item">
+                    <a href="product4.html">
+                        <img src="./img/04.jpg" alt="Product 8">
+                        <div class="product-title">Quỷ Nhập Tràng </div>
                         <div class="product-price">$129.01</div>
                         <div class="product-discount">10%</div>
-                    </div>
+                    </a>
+                    <a href="./img/04.jpg" class="buy-button">Mua hàng</a>
                 </div>
-                <div class="product">
-                    <div class="product-image">IMAGE</div>
-                    <div class="product-details">
-                        <div class="product-title">Lorem ipsum dolor</div>
+                <div class="product-item">
+                    <a href="product5.html">
+                        <img src="./img/05.jpg" alt="Product 8">
+                        <div class="product-title">Anvenger : End Game </div>
                         <div class="product-price">$129.01</div>
                         <div class="product-discount">10%</div>
-                    </div>
+                    </a>
+                    <a href="./img/05.jpg" class="buy-button">Mua hàng</a>
                 </div>
-                <div class="product">
-                    <div class="product-image">IMAGE</div>
-                    <div class="product-details">
-                        <div class="product-title">Lorem ipsum dolor</div>
+                <div class="product-item">
+                    <a href="product6.html">
+                        <img src="./img/06.jpg" alt="Product 8">
+                        <div class="product-title">Assasin </div>
                         <div class="product-price">$129.01</div>
                         <div class="product-discount">10%</div>
-                    </div>
+                    </a>
+                    <a href="./img/06.jpg" class="buy-button">Mua hàng</a>
                 </div>
-                <div class="product">
-                    <div class="product-image">IMAGE</div>
-                    <div class="product-details">
-                        <div class="product-title">Lorem ipsum dolor</div>
-                        <div class="product-price">$129.01</div>
+                <div class="product-item">
+                    <a href="product7.html">
+                        <img src="./img/07.jpg" alt="Product 8">
+                        <div class="product-title">Cám </div>
+                        <div class="product-price">$129.07</div>
                         <div class="product-discount">10%</div>
-                    </div>
+                    </a>
+                    <a href="./img/07.jpg" class="buy-button">Mua hàng</a>
                 </div>
-                <div class="product">
-                    <div class="product-image">IMAGE</div>
-                    <div class="product-details">
-                        <div class="product-title">Lorem ipsum dolor</div>
-                        <div class="product-price">$129.01</div>
+                <div class="product-item">
+                    <a href="product8.html">
+                        <img src="./img/08.jpg" alt="Product 8">
+                        <div class="product-title">Kẻ Ăn Hồn </div>
+                        <div class="product-price">$179.01</div>
                         <div class="product-discount">10%</div>
-                    </div>
+                    </a>
+                    <a href="./img/08.jpg" class="buy-button">Mua hàng</a>
                 </div>
             </div>
 
@@ -118,20 +124,21 @@
                 <a href="#">1</a>
                 <a href="#">2</a>
                 <a href="#">3</a>
-                <span>...</span>
+                <a href="#">...</a>
                 <a href="#">50</a>
             </div>
         </main>
     </div>
 
     <footer>
-        <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">Mọt Phim </div>
             <div class="footer-info">
-                <div class="logo">My Shop</div>
-                <div class="address">22C Somewhere, Ha Noi</div>
-                <div class="phone">09876543210</div>
+                <p>22C Somewhere, Ha Noi</p>
+                <p>09876543210</p>
             </div>
         </div>
+       
     </footer>
 </body>
 </html>
