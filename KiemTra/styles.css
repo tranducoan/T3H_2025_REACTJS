@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    background-color: #10e5d0;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color:  white;
+}
+
+header nav .cart {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+sidebar li {
+    margin-bottom: 10px;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button,
+.search-bar select {
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.product-image {
+    height: 150px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-details {
+    text-align: center;
+}
+
+.product-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.product-discount {
+    color: green;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a,
+.pagination span {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 11px 0;
+    margin-top: 10px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-info {
+    text-align: center;
+}
+
+footer .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer .address,
+footer .phone {
+    margin-bottom: 5px;
+}

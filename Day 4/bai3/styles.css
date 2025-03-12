@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.menu {
+    background-color: #333;
+    display: flex; /* Sử dụng Flexbox cho menu */
+    justify-content: space-around; /* Chia đều không gian giữa các mục menu */
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    flex-grow: 1; /* Chia đều chiều rộng cho các mục menu */
+    text-align: center; /* Căn giữa chữ trong mục menu */
+}
+
+.menu-item:hover {
+    background-color: #555;
+}

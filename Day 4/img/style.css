@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: #f8f0e0;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.logo, .login, .user-circle, .empty-circle, .notification {
+    background-color: #90ee90;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav button, .nav span {
+    background-color: #f08080;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+}
+
+.brand-name {
+    margin-left: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icons div {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.empty-circle, .user-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification {
+    position: relative;
+    top: -10px;
+    right: 5px;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.menu1 .nav button {
+    background-color: #f08080;
+}
+
+.menu2 .nav span {
+    background-color: transparent;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.menu3 .nav span {
+    background-color: transparent;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.menu4 .nav {
+    margin-left: 0;
+}
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 500px; /* Chiều cao cố định cho bố cục, bạn có thể điều chỉnh */
+}
+
+header {
+    background-color: #ffe0b2;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.left-sidebar {
+    background-color: #ffcdd2;
+    width: 200px;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #c8e6c9;
+    flex-grow: 1;
+    padding: 20px;
+}

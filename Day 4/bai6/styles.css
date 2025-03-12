@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Đảm bảo container chiếm toàn bộ chiều cao màn hình */
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1; /* Cho phép content chiếm không gian còn lại */
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    width: 200px; /* Chiều rộng cố định cho sidebar */
+    padding: 20px;
+}
+
+.main-content {
+    padding: 20px;
+    flex-grow: 1; /* Cho phép main content chiếm không gian còn lại */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}

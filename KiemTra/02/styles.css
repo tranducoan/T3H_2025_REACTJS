@@ -1,0 +1,171 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+header nav .cart {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.product-details {
+    display: flex;
+    margin-top: 20px;
+}
+
+.product-image {
+    width: 40%;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    width: 60%;
+    padding: 20px;
+}
+
+.product-options {
+    margin-top: 20px;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+.option label {
+    font-weight: bold;
+}
+
+.option-buttons {
+    display: flex;
+}
+
+.option-buttons button {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.price,
+.discount,
+.stock {
+    margin-left: 10px;
+}
+
+.rating .star {
+    color: gold;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity button {
+    padding: 5px 10px;
+}
+
+.add-to-cart {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-info {
+    text-align: center;
+}
+
+footer .logo {
+    font-size: 1.5em;
+    font-weight: bold;}
+    /* ... (CSS từ trước) ... */
+
+footer .address img,
+footer .phone img,
+footer .arrow img {
+    height: 20px; /* Điều chỉnh kích thước biểu tượng */
+    vertical-align: middle;
+    margin-right: 5px;
+}

@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .image {
+    flex: 1;
+  }
+  
+  .image img {
+    width: 100%;
+  }
+  
+  .details {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .stars {
+    color: gold;
+  }
+  
+  .categories button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .description {
+    margin-top: 20px;
+  }
+  
+  .actors {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .actor {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  
+  .actor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .buttons .watch {
+    background-color: #4CAF50;
+    color: white;
+  }
+  /* ... (các phần CSS trước) ... */
+
+.cast {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .cast h3 {
+    margin-bottom: 20px;
+  }
+  
+  .cast-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cast-member {
+    margin: 0 15px;
+    text-align: center;
+  }
+  
+  .cast-member img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
